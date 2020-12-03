@@ -23,6 +23,27 @@ body {
  line-height: 70px;
  background: #063146;
  user-select: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.menu-header i {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    margin-left: 1rem;
+}
+.menu-header i:before {
+    padding:7px;
+}
+.menu-header i:hover:before {
+    transition: all 1s;
+   
+    font-size: 2rem;
 }
 .list {
     padding: 0;
