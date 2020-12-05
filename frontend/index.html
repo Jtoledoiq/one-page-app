@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="/src/style/style.css">
+</head>
+<body>
+
+
+  
+
+    <input type="checkbox" id="check" />
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header class="menu-header">My App</header>
+        <ul class=list>
+            <li class="list--item item-1"><a href="/" data-link><i class="fas fa-qrcode" data-link><span class=label data-link>Dashboard</span> </i></a></li>
+            <li class="list--item item-2"><a href="/clock" data-link><i class="fas fa-link" data-link><span class=label data-link>Clock</span> </i></a></li>
+            <li class="list--item item-3"><a href="/drum" data-link><i class="fas fa-stream" data-link><span class=label data-link>Drum</span> </i></a></li>
+            <li class="list--item item-4"><a href="" data-link><i class="fas fa-calendar-week" data-link><span class=label data-link>Events</span> </i></a></li>
+            <li class="list--item item-5"><a href="" data-link><i class="fas fa-question-circle" data-link><span class=label data-link>About</span> </i></a></li>
+            <li class="list--item item-6"><a href="" data-link><i class="fas fa-sliders-h" data-link><span class=label data-link>Services</span> </i></a></li>
+            <li class="list--item item-7"><a href="" data-link><i class="fas fa-envelope" data-link><span class=label data-link>Contact</span> </i></a></li>
+        </ul>
+    </div>
+    <div class="body" id="app">
+       
+    </div>
+
+    <script type="module"  src="/src/script/script.js"></script>
+    <script type="module"  src="/src/script/views/views-scripts/clock-script.js"></script>
+    
+
+</body>
+</html>
