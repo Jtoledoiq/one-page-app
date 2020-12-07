@@ -1,5 +1,6 @@
 import Dashboard from "./views/Dashboard.js"
 import Clock from "./views/Clock.js"
+import Drum from "./views/Drum.js"
 
 
 const navigateTo = url => {
@@ -11,7 +12,7 @@ const router = async () => {
     const routes = [
         {path: "/", view: Dashboard},
         {path: "/clock", view: Clock},
-        //{path: "/drum", view:()=> console.log("viewing drum")},
+        {path: "/drum",view: Drum},
     ];
 
     //Test each route for potential match

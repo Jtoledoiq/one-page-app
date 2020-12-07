@@ -209,3 +209,27 @@ transform-origin: 0 0;
 
 transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
 }
+
+
+/* DRUM KIT APP */
+
+.drum-app-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.drum-app-key {
+    width: 3em;
+    height: 4em;
+    border: 2px double black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pressed {
+    border: 2px double yellowgreen;
+
+}
